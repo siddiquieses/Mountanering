@@ -1,0 +1,94 @@
+.navbar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color:#4477CE;
+  }
+ .navbar-nav .nav-item a{
+    padding: 20px;
+    margin-left:20px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar .navbar-nav .nav-but{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#navbarSupportedContent
+{
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ nav ul li a:active,a:hover{ 
+    border-radius: 20px;
+    background-color: #211C84;
+}
+.dropdown-menu :hover{
+    background-color: #211C84; 
+}
+.dropdown-menu{
+    color: white;
+}
+.nav-but :hover {
+    background-color: #ffffff;
+}
+.container {
+    width: 390px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+label {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 300px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4477CE;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+p{
+    margin-left: 20px;
+}
+button:hover {
+    background-color: #4477CE;
+}
+a{
+    font-family: 'none';
+    text-decoration: none;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+#create-account {
+    color: rgb(37, 255, 146); /* Initial color */
+    text-decoration: none; /* Remove underline if desired */
+}
+
+#create-account:hover {
+    color: rgb(255, 255, 255); /* Color when hovered */
+}
+
+
+
+
+
+

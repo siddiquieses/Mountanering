@@ -1,0 +1,465 @@
+.card-body{
+  background-color: #ffffff;
+}
+.navbar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color:#4477CE;
+}
+
+.navbar .navbar-nav .nav-item a {
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar-nav .nav-item a {
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.navbar .navbar-nav .nav-but {
+  padding: 10px;
+}
+
+nav ul li a:active,
+a:hover {
+  border-radius: 20px;
+  background-color: #211C84;
+}
+
+.dropdown-menu :hover {
+  background-color: #211C84;
+}
+
+.dropdown-menu {
+  color: white;
+}
+
+.nav-but :hover {
+  background-color: #ffffff;
+}
+
+#logo-heading {
+  color: #ffffff;
+}
+
+#mindful-heading {
+  font-family: none;
+  letter-spacing: 10px;
+}
+
+.row {
+  border-radius: 20px;
+}
+
+.binner-body {
+  padding-bottom: 10px;
+  font-family: none;
+  text-align: center;
+}
+
+.binner-body h5 {
+  font-family: none;
+  padding-top: 10px;
+}
+
+.binner-body p {
+  color: rgb(0, 0, 0);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* poses */
+.poses-type {
+  padding-top: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  grid-row: auto;
+}
+
+.poses-by-type-heading {
+  letter-spacing: 10px;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+
+.div-baners-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.images-hover-banner {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 4px 7px 7px 0px #00000042;
+  cursor: pointer;
+  margin: 10px;
+  transition: 400ms;
+}
+
+.images-hover-banner:hover {
+  filter: grayscale();
+  transform: scale(1.03);
+}
+
+
+.card-poses-two {
+  display: flex;
+  justify-content: center;
+  grid-row: row;
+  flex-wrap: wrap;
+}
+
+#Practice-Yoga-heading-name {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cards-heading-4 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* meditation */
+#meditation-heading {
+  text-align: center;
+  letter-spacing: 10px;
+
+}
+
+.meditation-benefit-heading {
+  margin-top: 10px;
+  padding: 8px;
+  padding-bottom: 1px;
+  border-radius: 8px;
+  display: flex;
+  grid-row: auto;
+  justify-content: space-evenly;
+}
+
+
+
+.section-1 ul li {
+  padding-top: 20px;
+}
+
+/* book  */
+.book-section {
+  font-family: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.book {
+  background-color: #00bcd4;
+  border: 1px solid #e60d0d;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(231, 11, 11, 0.1);
+  width: 100%;
+  max-width: 800px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.book h2 {
+  color: white;
+}
+
+.book a {
+  color: white;
+  text-decoration: none;
+}
+
+.book a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* contact */
+
+.contact-form-main-div {
+  background-color: #00bcd4;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact .content h2 {
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+}
+
+.contact .content p {
+  font-weight: 300;
+  color: black;
+}
+
+.contact-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.contactinfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactinfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.contactinfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.container .contactinfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container .contactinfo .box .text h3 {
+  font-weight: 500;
+  color: #000000;
+}
+
+.contactform {
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+}
+
+.contactform h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+
+.contactform .inoutbox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contactform .inoutbox input,
+.contactform .inoutbox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contactform .inoutbox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.contactform .inoutbox input:focus~span,
+.contactform .inoutbox input:valid~span,
+.contactform .inoutbox textarea:focus~span,
+.contactform .inoutbox textarea:valid~span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contactform .inoutbox input[type="submit"] {
+  width: 100px;
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+@media (max-width: 991px) {
+  .contact {
+    padding: 50px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .container .contactinfo {
+    margin-bottom: 40px;
+  }
+
+  .container .contactinfo,
+  .contactform {
+    width: 100%;
+  }
+}
+
+
+footer {
+  background-color: #f8f8f8;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  padding: 15px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-section.quick-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section.quick-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section.newsletter form {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-section.newsletter input {
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.footer-section.newsletter button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-section.newsletter button:hover {
+  background-color: #45a049;
+}
+
+.footer-section.social-media ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section.social-media ul li {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .footer-section {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .footer-section.newsletter form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section.newsletter input,
+  .footer-section.newsletter button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-section h3 {
+    font-size: 16px;
+  }
+
+  .footer-section p,
+  .footer-section a {
+    font-size: 12px;
+  }
+}
